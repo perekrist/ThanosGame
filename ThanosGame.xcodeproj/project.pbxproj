@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA369656225F82A700B2CE7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA369655225F82A700B2CE7D /* AppDelegate.swift */; };
+		CA369658225F82A700B2CE7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA369657225F82A700B2CE7D /* ViewController.swift */; };
+		CA36965B225F82A700B2CE7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA369659225F82A700B2CE7D /* Main.storyboard */; };
+		CA36965D225F82A800B2CE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA36965C225F82A800B2CE7D /* Assets.xcassets */; };
+		CA369660225F82A800B2CE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA36965E225F82A800B2CE7D /* LaunchScreen.storyboard */; };
+		CA36966B225F82A800B2CE7D /* ThanosGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36966A225F82A800B2CE7D /* ThanosGameTests.swift */; };
+		CA369676225F82A800B2CE7D /* ThanosGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA369675225F82A800B2CE7D /* ThanosGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA369667225F82A800B2CE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA36964A225F82A700B2CE7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA369651225F82A700B2CE7D;
+			remoteInfo = ThanosGame;
+		};
+		CA369672225F82A800B2CE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA36964A225F82A700B2CE7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA369651225F82A700B2CE7D;
+			remoteInfo = ThanosGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA369652225F82A700B2CE7D /* ThanosGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThanosGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA369655225F82A700B2CE7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA369657225F82A700B2CE7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA36965A225F82A700B2CE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA36965C225F82A800B2CE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA36965F225F82A800B2CE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA369661225F82A800B2CE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA369666225F82A800B2CE7D /* ThanosGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThanosGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA36966A225F82A800B2CE7D /* ThanosGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanosGameTests.swift; sourceTree = "<group>"; };
+		CA36966C225F82A800B2CE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA369671225F82A800B2CE7D /* ThanosGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThanosGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA369675225F82A800B2CE7D /* ThanosGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanosGameUITests.swift; sourceTree = "<group>"; };
+		CA369677225F82A800B2CE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA36964F225F82A700B2CE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA369663225F82A800B2CE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36966E225F82A800B2CE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA369649225F82A700B2CE7D = {
+			isa = PBXGroup;
+			children = (
+				CA369654225F82A700B2CE7D /* ThanosGame */,
+				CA369669225F82A800B2CE7D /* ThanosGameTests */,
+				CA369674225F82A800B2CE7D /* ThanosGameUITests */,
+				CA369653225F82A700B2CE7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA369653225F82A700B2CE7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA369652225F82A700B2CE7D /* ThanosGame.app */,
+				CA369666225F82A800B2CE7D /* ThanosGameTests.xctest */,
+				CA369671225F82A800B2CE7D /* ThanosGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA369654225F82A700B2CE7D /* ThanosGame */ = {
+			isa = PBXGroup;
+			children = (
+				CA369655225F82A700B2CE7D /* AppDelegate.swift */,
+				CA369657225F82A700B2CE7D /* ViewController.swift */,
+				CA369659225F82A700B2CE7D /* Main.storyboard */,
+				CA36965C225F82A800B2CE7D /* Assets.xcassets */,
+				CA36965E225F82A800B2CE7D /* LaunchScreen.storyboard */,
+				CA369661225F82A800B2CE7D /* Info.plist */,
+			);
+			path = ThanosGame;
+			sourceTree = "<group>";
+		};
+		CA369669225F82A800B2CE7D /* ThanosGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA36966A225F82A800B2CE7D /* ThanosGameTests.swift */,
+				CA36966C225F82A800B2CE7D /* Info.plist */,
+			);
+			path = ThanosGameTests;
+			sourceTree = "<group>";
+		};
+		CA369674225F82A800B2CE7D /* ThanosGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA369675225F82A800B2CE7D /* ThanosGameUITests.swift */,
+				CA369677225F82A800B2CE7D /* Info.plist */,
+			);
+			path = ThanosGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA369651225F82A700B2CE7D /* ThanosGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA36967A225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGame" */;
+			buildPhases = (
+				CA36964E225F82A700B2CE7D /* Sources */,
+				CA36964F225F82A700B2CE7D /* Frameworks */,
+				CA369650225F82A700B2CE7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThanosGame;
+			productName = ThanosGame;
+			productReference = CA369652225F82A700B2CE7D /* ThanosGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA369665225F82A800B2CE7D /* ThanosGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA36967D225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGameTests" */;
+			buildPhases = (
+				CA369662225F82A800B2CE7D /* Sources */,
+				CA369663225F82A800B2CE7D /* Frameworks */,
+				CA369664225F82A800B2CE7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA369668225F82A800B2CE7D /* PBXTargetDependency */,
+			);
+			name = ThanosGameTests;
+			productName = ThanosGameTests;
+			productReference = CA369666225F82A800B2CE7D /* ThanosGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA369670225F82A800B2CE7D /* ThanosGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA369680225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGameUITests" */;
+			buildPhases = (
+				CA36966D225F82A800B2CE7D /* Sources */,
+				CA36966E225F82A800B2CE7D /* Frameworks */,
+				CA36966F225F82A800B2CE7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA369673225F82A800B2CE7D /* PBXTargetDependency */,
+			);
+			name = ThanosGameUITests;
+			productName = ThanosGameUITests;
+			productReference = CA369671225F82A800B2CE7D /* ThanosGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA36964A225F82A700B2CE7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HITs;
+				TargetAttributes = {
+					CA369651225F82A700B2CE7D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CA369665225F82A800B2CE7D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CA369651225F82A700B2CE7D;
+					};
+					CA369670225F82A800B2CE7D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CA369651225F82A700B2CE7D;
+					};
+				};
+			};
+			buildConfigurationList = CA36964D225F82A700B2CE7D /* Build configuration list for PBXProject "ThanosGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA369649225F82A700B2CE7D;
+			productRefGroup = CA369653225F82A700B2CE7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA369651225F82A700B2CE7D /* ThanosGame */,
+				CA369665225F82A800B2CE7D /* ThanosGameTests */,
+				CA369670225F82A800B2CE7D /* ThanosGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA369650225F82A700B2CE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA369660225F82A800B2CE7D /* LaunchScreen.storyboard in Resources */,
+				CA36965D225F82A800B2CE7D /* Assets.xcassets in Resources */,
+				CA36965B225F82A700B2CE7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA369664225F82A800B2CE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36966F225F82A800B2CE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA36964E225F82A700B2CE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA369658225F82A700B2CE7D /* ViewController.swift in Sources */,
+				CA369656225F82A700B2CE7D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA369662225F82A800B2CE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36966B225F82A800B2CE7D /* ThanosGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36966D225F82A800B2CE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA369676225F82A800B2CE7D /* ThanosGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA369668225F82A800B2CE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA369651225F82A700B2CE7D /* ThanosGame */;
+			targetProxy = CA369667225F82A800B2CE7D /* PBXContainerItemProxy */;
+		};
+		CA369673225F82A800B2CE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA369651225F82A700B2CE7D /* ThanosGame */;
+			targetProxy = CA369672225F82A800B2CE7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA369659225F82A700B2CE7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA36965A225F82A700B2CE7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA36965E225F82A800B2CE7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA36965F225F82A800B2CE7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA369678225F82A800B2CE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA369679225F82A800B2CE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA36967B225F82A800B2CE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA36967C225F82A800B2CE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA36967E225F82A800B2CE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThanosGame.app/ThanosGame";
+			};
+			name = Debug;
+		};
+		CA36967F225F82A800B2CE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThanosGame.app/ThanosGame";
+			};
+			name = Release;
+		};
+		CA369681225F82A800B2CE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThanosGame;
+			};
+			name = Debug;
+		};
+		CA369682225F82A800B2CE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				INFOPLIST_FILE = ThanosGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hits.ThanosGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThanosGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA36964D225F82A700B2CE7D /* Build configuration list for PBXProject "ThanosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA369678225F82A800B2CE7D /* Debug */,
+				CA369679225F82A800B2CE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA36967A225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36967B225F82A800B2CE7D /* Debug */,
+				CA36967C225F82A800B2CE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA36967D225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36967E225F82A800B2CE7D /* Debug */,
+				CA36967F225F82A800B2CE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA369680225F82A800B2CE7D /* Build configuration list for PBXNativeTarget "ThanosGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA369681225F82A800B2CE7D /* Debug */,
+				CA369682225F82A800B2CE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA36964A225F82A700B2CE7D /* Project object */;
+}
