@@ -14,6 +14,17 @@
 		CA369660225F82A800B2CE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA36965E225F82A800B2CE7D /* LaunchScreen.storyboard */; };
 		CA36966B225F82A800B2CE7D /* ThanosGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36966A225F82A800B2CE7D /* ThanosGameTests.swift */; };
 		CA369676225F82A800B2CE7D /* ThanosGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA369675225F82A800B2CE7D /* ThanosGameUITests.swift */; };
+		CA369695225F8C7400B2CE7D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA369694225F8C7400B2CE7D /* GameViewController.swift */; };
+		CA3696A5225FA73800B2CE7D /* thanos.png in Resources */ = {isa = PBXBuildFile; fileRef = CA36969B225FA73700B2CE7D /* thanos.png */; };
+		CA3696A6225FA73800B2CE7D /* thanoshead2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA36969C225FA73700B2CE7D /* thanoshead2.png */; };
+		CA3696A7225FA73800B2CE7D /* thanos2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA36969D225FA73700B2CE7D /* thanos2.png */; };
+		CA3696A8225FA73800B2CE7D /* loki2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA36969E225FA73700B2CE7D /* loki2.png */; };
+		CA3696A9225FA73800B2CE7D /* thanosloose.png in Resources */ = {isa = PBXBuildFile; fileRef = CA36969F225FA73700B2CE7D /* thanosloose.png */; };
+		CA3696AA225FA73800B2CE7D /* blackhole.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3696A0225FA73700B2CE7D /* blackhole.png */; };
+		CA3696AB225FA73800B2CE7D /* cosmos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3696A1225FA73700B2CE7D /* cosmos.jpg */; };
+		CA3696AC225FA73800B2CE7D /* thanoswin.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3696A2225FA73800B2CE7D /* thanoswin.png */; };
+		CA3696AE225FA73800B2CE7D /* thanoshead.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3696A4225FA73800B2CE7D /* thanoshead.png */; };
+		CAEDFC712269E984001054F1 /* instruction.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CAEDFC702269E984001054F1 /* instruction.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		CA369671225F82A800B2CE7D /* ThanosGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThanosGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA369675225F82A800B2CE7D /* ThanosGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanosGameUITests.swift; sourceTree = "<group>"; };
 		CA369677225F82A800B2CE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA369694225F8C7400B2CE7D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CA36969B225FA73700B2CE7D /* thanos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanos.png; path = ../../../transpWhackDesk/thanos.png; sourceTree = "<group>"; };
+		CA36969C225FA73700B2CE7D /* thanoshead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanoshead2.png; path = ../../../transpWhackDesk/thanoshead2.png; sourceTree = "<group>"; };
+		CA36969D225FA73700B2CE7D /* thanos2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanos2.png; path = ../../../transpWhackDesk/thanos2.png; sourceTree = "<group>"; };
+		CA36969E225FA73700B2CE7D /* loki2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loki2.png; path = ../../../transpWhackDesk/loki2.png; sourceTree = "<group>"; };
+		CA36969F225FA73700B2CE7D /* thanosloose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanosloose.png; path = ../../../transpWhackDesk/thanosloose.png; sourceTree = "<group>"; };
+		CA3696A0225FA73700B2CE7D /* blackhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackhole.png; path = ../../../transpWhackDesk/blackhole.png; sourceTree = "<group>"; };
+		CA3696A1225FA73700B2CE7D /* cosmos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cosmos.jpg; path = ../../../transpWhackDesk/cosmos.jpg; sourceTree = "<group>"; };
+		CA3696A2225FA73800B2CE7D /* thanoswin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanoswin.png; path = ../../../transpWhackDesk/thanoswin.png; sourceTree = "<group>"; };
+		CA3696A4225FA73800B2CE7D /* thanoshead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thanoshead.png; path = ../../../transpWhackDesk/thanoshead.png; sourceTree = "<group>"; };
+		CAEDFC702269E984001054F1 /* instruction.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instruction.JPG; path = ../../../transpWhackDesk/instruction.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +119,10 @@
 		CA369654225F82A700B2CE7D /* ThanosGame */ = {
 			isa = PBXGroup;
 			children = (
+				CA369683225F840400B2CE7D /* images */,
 				CA369655225F82A700B2CE7D /* AppDelegate.swift */,
 				CA369657225F82A700B2CE7D /* ViewController.swift */,
+				CA369694225F8C7400B2CE7D /* GameViewController.swift */,
 				CA369659225F82A700B2CE7D /* Main.storyboard */,
 				CA36965C225F82A800B2CE7D /* Assets.xcassets */,
 				CA36965E225F82A800B2CE7D /* LaunchScreen.storyboard */,
@@ -123,6 +147,23 @@
 				CA369677225F82A800B2CE7D /* Info.plist */,
 			);
 			path = ThanosGameUITests;
+			sourceTree = "<group>";
+		};
+		CA369683225F840400B2CE7D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA3696A0225FA73700B2CE7D /* blackhole.png */,
+				CA3696A1225FA73700B2CE7D /* cosmos.jpg */,
+				CA36969E225FA73700B2CE7D /* loki2.png */,
+				CAEDFC702269E984001054F1 /* instruction.JPG */,
+				CA36969B225FA73700B2CE7D /* thanos.png */,
+				CA36969D225FA73700B2CE7D /* thanos2.png */,
+				CA3696A4225FA73800B2CE7D /* thanoshead.png */,
+				CA36969C225FA73700B2CE7D /* thanoshead2.png */,
+				CA36969F225FA73700B2CE7D /* thanosloose.png */,
+				CA3696A2225FA73800B2CE7D /* thanoswin.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +230,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = HITs;
+				ORGANIZATIONNAME = perekrist;
 				TargetAttributes = {
 					CA369651225F82A700B2CE7D = {
 						CreatedOnToolsVersion = 10.2;
@@ -230,8 +271,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA369660225F82A800B2CE7D /* LaunchScreen.storyboard in Resources */,
+				CA3696A9225FA73800B2CE7D /* thanosloose.png in Resources */,
 				CA36965D225F82A800B2CE7D /* Assets.xcassets in Resources */,
+				CA3696A5225FA73800B2CE7D /* thanos.png in Resources */,
+				CA3696A8225FA73800B2CE7D /* loki2.png in Resources */,
+				CA3696A6225FA73800B2CE7D /* thanoshead2.png in Resources */,
+				CA3696AA225FA73800B2CE7D /* blackhole.png in Resources */,
+				CAEDFC712269E984001054F1 /* instruction.JPG in Resources */,
 				CA36965B225F82A700B2CE7D /* Main.storyboard in Resources */,
+				CA3696A7225FA73800B2CE7D /* thanos2.png in Resources */,
+				CA3696AC225FA73800B2CE7D /* thanoswin.png in Resources */,
+				CA3696AB225FA73800B2CE7D /* cosmos.jpg in Resources */,
+				CA3696AE225FA73800B2CE7D /* thanoshead.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA369658225F82A700B2CE7D /* ViewController.swift in Sources */,
+				CA369695225F8C7400B2CE7D /* GameViewController.swift in Sources */,
 				CA369656225F82A700B2CE7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
